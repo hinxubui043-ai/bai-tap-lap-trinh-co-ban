@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 def benefit(t, n, k):
     """Tính tổng tiền (lãi kép) sau k tháng. t là lãi suất %/tháng, n là vốn, k là số tháng."""
     
@@ -31,3 +36,4 @@ try:
         
 except ValueError:
     print("Lỗi: Vui lòng nhập các giá trị là số hợp lệ.")
+
