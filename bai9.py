@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 str = input("enter a string:")
 dict={}
 for n in str:
@@ -7,3 +12,4 @@ for n in str:
     else:
         dict[n]=1
         print(dict)
+
