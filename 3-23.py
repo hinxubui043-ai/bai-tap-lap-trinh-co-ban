@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 s = input("Nhập câu: ")
 
 so_chu_cai = 0
@@ -11,3 +16,4 @@ for ch in s:
 
 print("Số chữ cái là:", so_chu_cai)
 print("Số chữ số là:", so_chu_so)
+
