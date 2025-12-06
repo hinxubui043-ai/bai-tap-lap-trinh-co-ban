@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 total = 0
 
 while True:
@@ -14,3 +19,4 @@ while True:
         total -= value
 
 print("Số dư cuối:", total)
+
