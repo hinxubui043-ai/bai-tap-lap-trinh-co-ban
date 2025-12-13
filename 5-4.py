@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 from tkinter import *
 
 window = Tk()
@@ -15,3 +20,4 @@ btn = Button(window, text="Click Me", command=clicked)
 btn.grid(column=1, row=0)
 
 window.mainloop()
+
