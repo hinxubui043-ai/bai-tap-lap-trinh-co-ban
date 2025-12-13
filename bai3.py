@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 class Nguoi(object):
     def getGender(self):
         return "Unknown"
@@ -13,3 +18,4 @@ aNam = Nam()
 aNu = Nu()
 print(aNam.getGender())
 print(aNu.getGender())
+
