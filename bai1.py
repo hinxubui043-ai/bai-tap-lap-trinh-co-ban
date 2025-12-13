@@ -1,3 +1,8 @@
+print("sinh vien : bui hin xu")
+
+print("ma so sv :245751030110041")
+
+print("#############################")
 class Circle(object):
     def __init__(self, r):
         self.radius = r
@@ -6,3 +11,4 @@ class Circle(object):
 
 aCircle = Circle(2)
 print(aCircle.area())
+
