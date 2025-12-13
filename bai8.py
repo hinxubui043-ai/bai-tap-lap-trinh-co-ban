@@ -1,8 +1,3 @@
-print("sinh vien : bui hin xu")
-
-print("ma so sv :245751030110041")
-
-print("#############################")
 class Bank:
     Account_type = "Savings"
     location = "Guntur"
@@ -77,4 +72,3 @@ class Bank:
 # Chạy thử
 user = Bank("An User", "1234-5678-9999", 5000)
 print(user)
-

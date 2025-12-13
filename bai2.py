@@ -1,8 +1,3 @@
-print("sinh vien : bui hin xu")
-
-print("ma so sv :245751030110041")
-
-print("#############################")
 class Hinhchunhat(object):
     def __init__(self, dai, rong):
         self.dai = dai
@@ -12,4 +7,3 @@ class Hinhchunhat(object):
         return self.dai * self.rong
 hinh_chu_nhat_moi = Hinhchunhat(8,10)
 print(hinh_chu_nhat_moi.area())
-

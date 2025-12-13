@@ -1,8 +1,3 @@
-print("sinh vien : bui hin xu")
-
-print("ma so sv :245751030110041")
-
-print("#############################")
 class Circle:
     def __init__(self, radius):
         self.radius = radius
@@ -18,4 +13,3 @@ class Circle:
 c = Circle(5)
 print("Diện tích:", c.area())
 print("Chu vi:", c.circumference())
-

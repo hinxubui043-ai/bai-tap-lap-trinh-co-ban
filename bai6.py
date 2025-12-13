@@ -1,8 +1,3 @@
-print("sinh vien : bui hin xu")
-
-print("ma so sv :245751030110041")
-
-print("#############################")
 class IOString:
     def __init__(self):
         self.str1 = ""
@@ -18,4 +13,3 @@ class IOString:
 str1 = IOString()
 str1.get_String()
 str1.print_String()
-
