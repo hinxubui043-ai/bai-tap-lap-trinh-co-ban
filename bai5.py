@@ -1,10 +1,5 @@
-print("sinh vien : bui hin xu")
+class py_solution:
+    def reverse_words(self, s):
+        return ' '.join(reversed(s.split()))
 
-print("ma so sv :245751030110041")
-
-print("#############################")
-n=int(input("enter A number--->"));
-while n>=0:
-          print (n);
-          n=n-1;
-
+print(py_solution().reverse_words("hello .py"))

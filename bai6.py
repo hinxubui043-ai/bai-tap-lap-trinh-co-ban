@@ -1,11 +1,15 @@
-print("sinh vien : bui hin xu")
+class IOString:
+    def __init__(self):
+        self.str1 = ""
 
-print("ma so sv :245751030110041")
+    def get_String(self):
+        self.str1 = input()
 
-print("#############################")
-j=[]
-for i in range(2000,3201):
-    if (i%7==0)and (i%5!=0):
-        j.append(str(i))
-print(','.join(j))
+    def print_String(self):
+        print(self.str1.upper())
 
+
+# Chạy chương trình
+str1 = IOString()
+str1.get_String()
+str1.print_String()

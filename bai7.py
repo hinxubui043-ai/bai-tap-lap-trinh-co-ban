@@ -1,11 +1,15 @@
-print("sinh vien : bui hin xu")
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
 
-print("ma so sv :245751030110041")
+    def area(self):
+        return 3.14 * self.radius * self.radius
 
-print("#############################")
-n=int(input('nhap mot so:'))
-d=dict()
-for i in range(1,n+1):
-    d[i]=i*i
-print (d)
+    def circumference(self):
+        return 2 * 3.14 * self.radius
 
+
+# Ví dụ sử dụng:
+c = Circle(5)
+print("Diện tích:", c.area())
+print("Chu vi:", c.circumference())
